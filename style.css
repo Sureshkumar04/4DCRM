@@ -521,6 +521,7 @@ nav{
     background: #10182F;
     border-radius: 6px;
     padding-bottom: 6vmin;
+    z-index: 0;
   }
   .footer .footer-row {
     display: flex;
@@ -648,6 +649,7 @@ nav{
         left: 10px;
         opacity: 0;
         transition: 0.5s;
+        z-index: 99;
       }
 
       .popup{
@@ -700,6 +702,8 @@ nav{
       #sliderImg{
         width: 100vmin;
       }
+
+    }
 
 
       @media only screen and (max-width: 400px){
@@ -791,16 +795,7 @@ nav{
       }
       .footer-col form button {
         margin: 10px 0 0 0;
-      }
-
-     
-
-    
-
-
-    
-    
-    
+      }  
     
   }   
   
